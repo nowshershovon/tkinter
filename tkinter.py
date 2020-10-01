@@ -3,10 +3,10 @@ from tkinter import*
 root = Tk()
 root.geometry("400x300")
 
-e1 = Entry(root)
-e1.pack()
+Entry = Entry(root)
+Entry.pack()
 
-b1 = Button(root, text="button")
-b1.pack()
+Button = Button(root, text="button")
+Button.pack()
 
 root.mainloop()

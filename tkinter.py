@@ -9,4 +9,7 @@ Entry.pack()
 Button = Button(root, text="button")
 Button.pack()
 
+Button_1 = Button(root, text="button")
+Button_1.pack()
+
 root.mainloop()
